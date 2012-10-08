@@ -24,38 +24,13 @@
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 	
-function parse_bbcode_widget_title( $title ) {
-	$title = str_replace( '[b]', '<b>', $title );
-	$title = str_replace( '[/b]', '</b>', $title );
-
-	$title = str_replace( '[i]', '<i>', $title );
-	$title = str_replace( '[/i]', '</i>', $title );
-
-	$title = str_replace( '[u]', '<u>', $title );
-	$title = str_replace( '[/u]', '</u>', $title );
-
-	$title = str_replace( '[s]', '<del>', $title );
-	$title = str_replace( '[/del]', '</del>', $title );
-
-	if (strlen(strstr($title,"[url"))>0) {
-		$title = str_replace( '[/url]', '</a>', $title );
-		$title = str_replace( '[url=', '<a href="', $title );
-	}
-
-	if (strlen(strstr($title,"[color"))>0) {
-		$title = str_replace( '[/color]', '</font>', $title );
-		$title = str_replace( '[color=', '<font color="', $title );
-		$title = str_replace( ']', '">', $title );
-	}
-	
-	//replacing the end bracket in the [url] section can conflict with the first replace in the [color] section, so do this after checking for [color]
-	if (strlen(strstr($title,"<a href="))>0) {
-		$title = str_replace( ']', '">', $title );
-	}
-
-	return $title;
+function google_plus_one_func( $atts ) {
+	return "<g:plusone></g:plusone>";
 }
-
-add_filter( 'widget_title', 'parse_bbcode_widget_title' );
+add_shortcode( 'gplusone', 'google_plus_one_func' );
+add_shortcode( 'plusone', 'google_plus_one_func' );
+add_shortcode( 'google+1', 'google_plus_one_func' );
+add_shortcode( 'g+1', 'google_plus_one_func' );
+add_shortcode( '+1', 'google_plus_one_func' );
 
 ?>
