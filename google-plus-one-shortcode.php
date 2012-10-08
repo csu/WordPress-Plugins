@@ -1,7 +1,7 @@
 <?php
 /*
-	Plugin Name: Google +1 Shortcode
-	Plugin URI: http://christophersu.org/wp-google-plus-one-shortcode/
+	Plugin Name: Google +1 Shortcodes
+	Plugin URI: http://christophersu.org/wp-google-plus-one-shortcodes/
 	Description: Shortcodes for embedding Google +1 buttons. Shortcodes: [gplusone], [plusone], [google+1], [g+1], [+1].
 	Version: 1.0
 	Author: Christopher Su
@@ -23,6 +23,12 @@
 	along with this program; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
+
+function load_plus_one_script() {
+	wp_register_script( 'google_plus_one_script', 'https://apis.google.com/js/plusone.js', false, '');
+	wp_enqueue_script( 'google_plus_one_script' );
+}
+add_action( 'wp_print_scripts', 'load_plus_one_script' ); 
 	
 function google_plus_one_func( $atts ) {
 	return "<g:plusone></g:plusone>";
