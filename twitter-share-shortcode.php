@@ -31,7 +31,7 @@ function load_scripts() {
 add_action( 'wp_print_scripts', 'load_scripts' ); 
 	
 function twitter_share_func( $atts ) {
-	return "<a href=\"http://twitter.com/share\" class=\"twitter-share-button\" data-url="<?php the_permalink() ?>" data-count=\"vertical\" data-via="<?php bloginfo('name') ?>">Tweet</a> ";
+	return "<a href=\"http://twitter.com/share\" class=\"twitter-share-button\" data-url=" + the_permalink() + " data-count=\"vertical\" data-via=" + bloginfo('name') + ">Tweet</a>";
 }
 add_shortcode( 'twittershare', 'twitter_share_func' );
 ?>
