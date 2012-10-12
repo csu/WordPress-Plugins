@@ -11,7 +11,7 @@
 	Copyright 2012  Christopher J. Su  (email : christophersu9 (at) gmail (dot) com)
 
 	This program is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License, version 2, as 
+	it under the terms of the GNU General Public License, version 2, as
 	published by the Free Software Foundation.
 
 	This program is distributed in the hope that it will be useful,
@@ -28,10 +28,10 @@ function load_scripts() {
 	wp_register_script( 'twitter_share_script', 'http://platform.twitter.com/widgets.js', false, '');
 	wp_enqueue_script( 'twitter_share_script' );
 }
-add_action( 'wp_print_scripts', 'load_scripts' ); 
-	
+add_action( 'wp_print_scripts', 'load_scripts' );
+
 function twitter_share_func( $atts ) {
-	return "<a href=\"http://twitter.com/share\" class=\"twitter-share-button\" data-url=" + the_permalink() + " data-count=\"vertical\" data-via=" + bloginfo('name') + ">Tweet</a>";
+	return "<a href=\"http://twitter.com/share\" class=\"twitter-share-button\" data-url=\"" + the_permalink() + \"" data-count=\"vertical\" data-via=\"" + bloginfo('name') + \"">Tweet</a>";
 }
 add_shortcode( 'twittershare', 'twitter_share_func' );
 ?>
