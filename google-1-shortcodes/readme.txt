@@ -25,7 +25,8 @@ Shortcodes for embedding Google +1 buttons. Currently, the plugin supports embed
 
 == Screenshots ==
 
-
+1. Using shortcodes in a post.
+2. The resulting button (from the first screenshot).
 
 == Changelog ==
 
