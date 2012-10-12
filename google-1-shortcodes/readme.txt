@@ -12,13 +12,12 @@ Shortcodes for embedding Google +1 buttons.
 
 == Description ==
 
-Blog Stats Shortcodes allows for users to quickly insert post, comment, page, and word counts into content using shortcodes such as: [postcount], [commentcount], [pagecount], and [totalwordcount].
-
-All shortcodes added by this plugin: [postcount], [commentcount], [pagecount], [totalwordcount], [post-count], [comment-count], [page-count], [blogwordcount], [blog-word-count], and [total-word-count].
+Shortcodes for embedding Google +1 buttons. Currently, the plugin supports embedding +1 buttons using the following shortcodes: [gplusone], [plusone], [google+1], [g+1], [+1].
 
 == Installation ==
 
-Shortcodes for embedding Google +1 buttons. Currently, the plugin supports embedding +1 buttons using the following shortcodes: [gplusone], [plusone], [google+1], [g+1], [+1].
+1. Upload the php file to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently asked questions ==
 
@@ -33,5 +32,4 @@ Shortcodes for embedding Google +1 buttons. Currently, the plugin supports embed
 
 
 == Upgrade notice ==
-
 

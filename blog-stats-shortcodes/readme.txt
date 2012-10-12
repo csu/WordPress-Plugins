@@ -19,7 +19,7 @@ All shortcodes added by this plugin: [postcount], [commentcount], [pagecount], [
 == Installation ==
 
 1. Upload the php file to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently asked questions ==
 
