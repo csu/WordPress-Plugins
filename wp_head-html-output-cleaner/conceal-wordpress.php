@@ -1,7 +1,7 @@
 <?php
 /*
-	Plugin Name: Conceal WordPress
-	Plugin URI: http://christophersu.org/wordpress/conceal-wordpress/
+	Plugin Name: WP_Head HTML Output Cleaner
+	Plugin URI: http://christophersu.org/wordpress/wp_head-html-output-cleaner/
 	Description: Cleans up the output of wp_head and adds root relative URLs.
 	Version: 1.0
 	Author: Christopher Su

@@ -1,4 +1,4 @@
-=== Conceal WordPress ===
+=== WP_Head HTML Output Cleaner ===
 Contributors: Christopher Su
 Donate link: http://christophersu.org/wp-donate/
 Tags: wordpress, hide, conceal, header, head, code
