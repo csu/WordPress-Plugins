@@ -1,4 +1,4 @@
-=== Conceal WordPress ===
+=== Remove Login Shake ===
 Contributors: Christopher Su
 Donate link: http://christophersu.org/wp-donate/
 Tags: wordpress, login, shake, admin, error, animation
