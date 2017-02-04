@@ -1,11 +1,11 @@
 <?php
 /*
 	Plugin Name: Twitter Share Shortcode
-	Plugin URI: http://christophersu.org/wp-twitter-share-shortcode/
+	Plugin URI: http://christopher.su/wp-twitter-share-shortcode/
 	Description: Shortcodes for embedding Twitter share buttons. Shortcode: [twittershare].
 	Version: 1.0
 	Author: Christopher Su
-	Author URI: http://christophersu.org/
+	Author URI: http://christopher.su/
 	License: GPL2
 
 	Copyright 2012  Christopher J. Su  (email : christophersu9 (at) gmail (dot) com)

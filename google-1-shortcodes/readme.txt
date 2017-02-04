@@ -1,6 +1,6 @@
 === Google +1 Shortcodes ===
 Contributors: Christopher Su, christopher.su
-Donate link: http://christophersu.org/wp-donate/
+Donate link: http://christopher.su/wp-donate/
 Tags: google, plus, google plus, shortcode, embed, button, buttons, share, social
 Requires at least: 2.7
 Tested up to: 3.4

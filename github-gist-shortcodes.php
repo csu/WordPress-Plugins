@@ -1,11 +1,11 @@
 <?php
 /*
 	Plugin Name: GitHub Gist Shortcode and Helper
-	Plugin URI: http://christophersu.org/wp-github-gist-shortcode-helper/
+	Plugin URI: http://christopher.su/wp-github-gist-shortcode-helper/
 	Description: Adds the [gist] shortcode and also automatically replaces Gist links with Gist embeds.
 	Version: 1.0
 	Author: Christopher Su
-	Author URI: http://christophersu.org/
+	Author URI: http://christopher.su/
 	License: GPL2
 
 	Copyright 2012  Christopher J. Su  (email : christophersu9 (at) gmail (dot) com)

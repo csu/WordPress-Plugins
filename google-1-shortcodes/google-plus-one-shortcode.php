@@ -1,11 +1,11 @@
 <?php
 /*
 	Plugin Name: Google +1 Shortcodes
-	Plugin URI: http://christophersu.org/wp-google-plus-one-shortcodes/
+	Plugin URI: http://christopher.su/wp-google-plus-one-shortcodes/
 	Description: Shortcodes for embedding Google +1 buttons. Shortcodes: [gplusone], [plusone], [google+1], [g+1], [+1].
 	Version: 1.0
 	Author: Christopher Su
-	Author URI: http://christophersu.org/
+	Author URI: http://christopher.su/
 	License: GPL2
 
 	Copyright 2012  Christopher J. Su  (email : christophersu9 (at) gmail (dot) com)

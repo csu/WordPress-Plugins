@@ -1,11 +1,11 @@
 <?php
 /*
 	Plugin Name: Blog Stats Shortcodes
-	Plugin URI: http://christophersu.org/wp-blog-stats-shortcodes/
+	Plugin URI: http://christopher.su/wp-blog-stats-shortcodes/
 	Description: Shortcodes for displaying post, comment, page, and word counts. Shortcodes: [postcount], [commentcount], [pagecount], and [totalwordcount].
 	Version: 1.0
 	Author: Christopher Su
-	Author URI: http://christophersu.org/
+	Author URI: http://christopher.su/
 	License: GPL2
 
 	Copyright 2012  Christopher J. Su  (email : christophersu9 (at) gmail.com)

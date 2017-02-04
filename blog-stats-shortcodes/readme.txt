@@ -1,6 +1,6 @@
 === Blog Stats Shortcodes ===
 Contributors: Christopher Su, christopher.su
-Donate link: http://christophersu.org/wp-donate/
+Donate link: http://christopher.su/wp-donate/
 Tags: blog, stats, shortcode, shortcodes, statistics, post count, count, words, word, posts
 Requires at least: 2.7
 Tested up to: 3.4

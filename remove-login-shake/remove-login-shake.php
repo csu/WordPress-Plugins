@@ -1,11 +1,11 @@
 <?php
 /*
 	Plugin Name: Remove Login Shake
-	Plugin URI: http://christophersu.org/wordpress/remove-login-shake/
+	Plugin URI: http://christopher.su/wordpress/remove-login-shake/
 	Description: Removes the shaking animation on the login screen.
 	Version: 1.0
 	Author: Christopher Su
-	Author URI: http://christophersu.org/
+	Author URI: http://christopher.su/
 	License: GPL2
 
 	Copyright 2012  Christopher J. Su  (email : christophersu9 (at) gmail (dot) com)

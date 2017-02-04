@@ -1,11 +1,11 @@
 <?php
 /*
 	Plugin Name: BBCode Widget Titles
-	Plugin URI: http://christophersu.org/wp-bbcode-widget-titles/
+	Plugin URI: http://christopher.su/wp-bbcode-widget-titles/
 	Description: Allows for the use of BBCode in styling widget titles. Supports [b], [i], [u], [s], [url=], and [color=].
 	Version: 1.0
 	Author: Christopher Su
-	Author URI: http://christophersu.org/
+	Author URI: http://christopher.su/
 	License: GPL2
 
 	Copyright 2012  Christopher J. Su  (email : christophersu9 (at) gmail (dot) com)
